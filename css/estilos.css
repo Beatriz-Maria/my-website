@@ -30,7 +30,7 @@ h1 {
   font-weight: 200;
   margin-left: 5%;
   font-size: 2.2rem;
-  color: rgb(90, 59, 59);
+  color: rgb(0, 0, 0);
   text-align:left;
 }
 
@@ -57,7 +57,7 @@ nav {
   padding: 0;
   position:static;
   max-width: 100%;
-  background: #7a1b37;
+  background: #000000;
   box-shadow: 0 3px 15px rgba(0, 0, 0, 0.15);
 
 }
@@ -72,6 +72,7 @@ nav ul {
   padding: 0;
   margin: 0;
   list-style: none;
+  margin-left: -3%;
 }
 
 nav ul li {
@@ -120,6 +121,11 @@ nav ul li ul li a:focus {
   color: #111;
 }
 
+.slide{
+  background-size: 100%;
+  margin: 0;
+}
+
 .dropdown {
   display: none;
   position: absolute;
@@ -130,15 +136,24 @@ nav ul li ul li a:focus {
 footer {
   color: #555;
   font-size: 12px;
-  margin-top: 5em;
-  text-align: center;
+  text-align: left;
+  align-items: flex-start;
 }
 
 .dk-footer{
   background-color: #000000;
+  min-height: 100px;
+  align-items:center;
+}
+
+footer li{
+  list-style-type: none;
+  display: inline;
+  padding: 2%;  
 }
 
 footer a {
   color: #ffffff;
+  
 }
 
