@@ -8,7 +8,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Beatriz Maria da Silva Pereira</title>  
     <link rel = 'stylesheet' href = 'css/estilos.css' type='text/css'> 
-    <link rel = 'stylesheet' href = 'main.js' type='text/js'> 
     <link rel="preconnect" href="https://fonts.googleapis.com">
 
     <!-------------FOOTER LINKS--------------->
@@ -20,21 +19,28 @@
 <body>
 <header class="main-header">        
     <nav class="nav">
-        <ul>
-            <li><a href="#">Home</a>
-                <li class="drop"><a href="#">Educational</a>
-                <ul class="dropdown">
-                    <li><a href='#'>Proteomics</a></li>
+        <ul class='menu'>
+            <button class="dropbtn">Home</button>            
+                <!--Menu Educational dropdown-->
+                <div class='dropdown'>
+                    <button class="dropbtn">Educational
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                        <ul class="dropdown-content">
+                            <li><a href='#'>Proteomics</a></li>
+                            <li><a href='#'>Linux</a></li>
+                            
+                        </ul>
+                </div>
+                <!--Menu Coding dropdown-->
+                <div class='dropdown'>
+                <button class="dropbtn">Coding
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <ul class="dropdown-content">
+                    <li><a href='#'>Binary Numbers</a></li>
                     <li><a href='#'>Bioinformatics</a></li>
-                    <li><a href='#'>Linux</a></li>
-                    <li><a href='#'>Programming things</a></li>
-                </ul>
-                <li class="drop"><a href="#">Coding</a>
-                <ul class="dropdown">
-                    <li><a href="#">Oferta 01</a></li>
-                    <li><a href="#">Oferta 02</a></li>
-                    <li><a href="#">Oferta 03</a></li>
-                </ul>
+                </div>
         </ul>
     </nav>
 
