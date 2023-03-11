@@ -8,7 +8,7 @@ body {
   font-weight: 300;
   padding: 0;
   margin: 0;
-  margin-bottom: 3rem;
+  margin-bottom: 6rem;
 }
 
 img{
@@ -158,6 +158,12 @@ nav ul li ul li a:focus {
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+/*Video youtube */
+
+.videos {
+  padding-left: 5rem;
 }
 
 footer {
